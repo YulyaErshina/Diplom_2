@@ -22,7 +22,7 @@ public class IngredientsForCreateNewBurger extends RestAssuredClient {
         this.ingredients = ingredients;
     }
 
-    @Step("Получение рандомного списка заказов")
+    @Step("Получение рандомного списка ингредиентов")
     public static IngredientsForCreateNewBurger getRandom(){
 
         ValidatableResponse response = given()
